@@ -17,6 +17,9 @@ resource "kubernetes_config_map" "nginx_config" {
         server {
           listen 80;
           location / {
+              return 404;
+          }
+          location = / {
             default_type text/plain;
             content_by_lua_block {
               local pod_name = os.getenv("POD_NAME")
