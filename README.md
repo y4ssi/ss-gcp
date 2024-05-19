@@ -259,4 +259,4 @@ resource "kubernetes_deployment" "nginx" {
 }
 ```
 
-This `ConfigMap` and deployment configuration ensure that Nginx displays the pod name, IP, and namespace.
+This `ConfigMap` and deployment configuration ensure that Nginx displays the pod name, IP, namespace and node name
