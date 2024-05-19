@@ -1,0 +1,30 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+*.tfplan
+*.tfplan.*
+*.backup
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate.backup
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.log
+*.tmp.*
+
+# Visual Studio Code
+.vscode/
+.history
+*.code-workspace
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
